@@ -317,7 +317,7 @@ export function Contact() {
                   <span className="text-[14px] text-white font-[500] mb-[2px]">Divyam Mishra — Resume</span>
                   <span className="text-[12px] text-[rgba(255,255,255,0.5)]">PDF · Updated 2025</span>
                 </div>
-                <a href="#" className="h-[36px] px-[20px] bg-[#d4af37] text-[#050505] font-[600] font-mono text-[9px] tracking-[2px] flex items-center justify-center transition-colors hover:bg-white flex-shrink-0">
+                <a href="/Divyam_Mishra_Resume.pdf" target="_blank" rel="noopener noreferrer" className="h-[36px] px-[20px] bg-[#d4af37] text-[#050505] font-[600] font-mono text-[9px] tracking-[2px] flex items-center justify-center transition-colors hover:bg-white flex-shrink-0">
                   DOWNLOAD
                 </a>
               </motion.div>
