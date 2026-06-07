@@ -65,7 +65,7 @@ export function Hero() {
                   SEE MY WORK
                 </Button>
               </a>
-              <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+              <a href="/Divyam_Mishra_Resume.pdf" target="_blank" rel="noopener noreferrer">
                 <Button
                   variant="outline"
                   className="h-[42px] w-full px-8 font-mono text-[11px] font-medium uppercase tracking-[0.15em] sm:w-auto"
