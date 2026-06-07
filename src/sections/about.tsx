@@ -9,28 +9,28 @@ export function About() {
         <div className="relative grid grid-cols-1 gap-8 lg:grid-cols-12 lg:gap-12">
           
           {/* Left Column */}
-          <div className="flex flex-col lg:col-span-8 lg:pr-12 xl:pr-16">
+          <div className="flex flex-col justify-end lg:col-span-8 lg:pr-12 xl:pr-16 pb-4">
             <div className="flex items-center gap-4 mb-8">
               <div className="w-[24px] h-[1px] bg-[#E5C74A]"></div>
-              <span className="font-mono text-[11px] uppercase tracking-[0.18em] text-[#E5C74A]">
+              <span className="font-mono text-[10px] uppercase tracking-[0.18em] text-[#E5C74A]">
                 ABOUT ME
               </span>
             </div>
             
             <h2 className="mb-10 flex flex-col tracking-[-0.03em]">
-              <span className="text-white text-[72px] font-light leading-[0.95]" style={{ fontFamily: "Canela, serif" }}>
+              <span className="text-white text-[56px] font-light leading-[0.95]" style={{ fontFamily: "Canela, serif" }}>
                 I stay until
               </span>
-              <span className="text-[#E5C74A] italic text-[72px] font-light leading-[0.95]" style={{ fontFamily: "Canela, serif" }}>
+              <span className="text-[#E5C74A] italic text-[56px] font-light leading-[0.95]" style={{ fontFamily: "Canela, serif" }}>
                 it's fixed.
               </span>
             </h2>
             
             <div className="flex flex-col gap-6">
-              <p className="text-[15px] leading-[2] text-[rgba(255,255,255,0.58)] max-w-[700px]">
+              <p className="text-[14px] leading-[2] text-[rgba(255,255,255,0.58)] max-w-[700px]">
                 Final-year CSE (AI & ML) student at DCE Gurugram. Odoo Consultant at Target Integration. McKinsey Forward ’26 alumnus. Published researcher. IIT Madras i2i finalist. Presented research internationally at ICSET 2023, Malacca, Malaysia.
               </p>
-              <p className="text-[15px] leading-[2] text-[rgba(255,255,255,0.58)] max-w-[700px]">
+              <p className="text-[14px] leading-[2] text-[rgba(255,255,255,0.58)] max-w-[700px]">
                 I bridge the gap between messy business operations and clean technical systems through structured thinking, rigorous documentation, and hands-on ERP delivery. I don't just advise. I stay until it works.
               </p>
             </div>
@@ -61,14 +61,14 @@ export function About() {
               }
             ].map((principle, idx) => (
               <div key={idx} className="flex gap-8 py-[28px] border-b border-[rgba(255,255,255,0.06)]">
-                <div className="text-[14px] text-[#E5C74A] font-semibold pt-1">
+                <div className="text-[12px] text-[#E5C74A] font-semibold pt-1">
                   {principle.num}
                 </div>
                 <div className="flex flex-col gap-2">
-                  <h3 className="text-[18px] text-white font-semibold">
+                  <h3 className="text-[15px] text-white font-semibold">
                     {principle.title}
                   </h3>
-                  <p className="text-[15px] text-[rgba(255,255,255,0.58)] leading-[1.8]">
+                  <p className="text-[13px] text-[rgba(255,255,255,0.58)] leading-[1.8]">
                     {principle.desc}
                   </p>
                 </div>
@@ -85,8 +85,8 @@ export function About() {
         <div className="relative grid grid-cols-1 gap-8 lg:grid-cols-12 lg:gap-12">
           
           {/* Education Column */}
-          <div className="flex flex-col lg:col-span-8 lg:pr-12 xl:pr-16">
-            <div className="font-mono text-[11px] uppercase tracking-[0.18em] text-[#E5C74A] mb-8">
+          <div className="flex flex-col lg:col-span-7 lg:pr-12 xl:pr-16">
+            <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-[#E5C74A] mb-8">
               EDUCATION
             </div>
             <div className="flex flex-col border-t border-[rgba(255,255,255,0.06)] pt-2">
@@ -107,10 +107,10 @@ export function About() {
                 <div key={idx} className="flex items-start gap-4 py-6 border-b border-[rgba(255,255,255,0.06)] relative">
                   <div className="w-1.5 h-1.5 rounded-full bg-[#E5C74A] mt-2 shrink-0"></div>
                   <div className="flex flex-col gap-1.5">
-                    <h4 className="text-[18px] text-white font-medium">
+                    <h4 className="text-[15px] text-white font-medium">
                       {edu.title}
                     </h4>
-                    <span className="text-[14px] text-[rgba(255,255,255,0.5)]">
+                    <span className="text-[13px] text-[rgba(255,255,255,0.5)]">
                       {edu.meta}
                     </span>
                   </div>
@@ -120,8 +120,8 @@ export function About() {
           </div>
 
           {/* Key Achievements Column */}
-          <div className="flex flex-col lg:col-span-4">
-            <div className="font-mono text-[13px] uppercase tracking-[0.18em] text-[#D4AF37] mb-8">
+          <div className="flex flex-col lg:col-span-5">
+            <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-[#D4AF37] mb-8">
               KEY ACHIEVEMENTS
             </div>
             
@@ -158,12 +158,12 @@ export function About() {
                   desc: "2 peer-reviewed research papers published"
                 }
               ].map((achievement, idx) => (
-                <div key={idx} className="flex flex-col justify-center bg-[rgba(255,255,255,0.02)] border border-[rgba(255,255,255,0.08)] h-[108px] p-[20px]">
-                  <div className="text-[18px] mb-2">{achievement.icon}</div>
-                  <h4 className="text-[15px] text-[#FFFFFF] font-semibold mb-1">
+                <div key={idx} className="flex flex-col justify-center bg-[rgba(255,255,255,0.02)] border border-[rgba(255,255,255,0.08)] min-h-[116px] p-[20px]">
+                  <div className="text-[16px] mb-2">{achievement.icon}</div>
+                  <h4 className="text-[14px] text-[#FFFFFF] font-semibold mb-1">
                     {achievement.title}
                   </h4>
-                  <p className="text-[14px] text-[rgba(255,255,255,0.55)] leading-[1.6]">
+                  <p className="text-[12px] text-[rgba(255,255,255,0.55)] leading-[1.6]">
                     {achievement.desc}
                   </p>
                 </div>

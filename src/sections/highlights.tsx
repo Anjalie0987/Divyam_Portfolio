@@ -29,7 +29,7 @@ export function Highlights() {
         
         {/* Header */}
         <div className="flex justify-between items-start mb-[48px]">
-          <h2 className="text-[64px] font-light tracking-[-0.02em] text-[#F4F1EA]" style={{ fontFamily: "'Canela', serif", lineHeight: 0.95 }}>
+          <h2 className="text-[52px] font-light tracking-[-0.02em] text-[#F4F1EA]" style={{ fontFamily: "'Canela', serif", lineHeight: 0.95 }}>
             Key highlights
           </h2>
           <p className="font-sans text-[15px] leading-[1.8] text-[rgba(255,255,255,0.5)] max-w-[260px] text-right mt-2">
@@ -48,20 +48,20 @@ export function Highlights() {
               )}
             >
               <div className="flex items-center gap-3 mb-6">
-                <span className="font-mono text-[11px] tracking-[0.16em] uppercase text-[rgba(255,255,255,0.45)]">
+                <span className="font-mono text-[10px] tracking-[0.16em] uppercase text-[rgba(255,255,255,0.45)]">
                   {item.label}
                 </span>
               </div>
               
-              <div className="text-[58px] font-light text-[#E5C74A] mb-3 leading-none" style={{ fontFamily: "Canela, serif" }}>
+              <div className="text-[42px] font-light text-[#E5C74A] mb-3 leading-none" style={{ fontFamily: "Canela, serif" }}>
                 {item.metric}
               </div>
               
-              <h3 className="font-sans text-[16px] font-semibold text-white leading-[1.4] mt-4 mb-2">
+              <h3 className="font-sans text-[14px] font-semibold text-white leading-[1.4] mt-4 mb-2">
                 {item.title}
               </h3>
               
-              <p className="font-sans text-[13px] leading-[1.8] text-[rgba(255,255,255,0.58)] max-w-[360px]">
+              <p className="font-sans text-[12px] leading-[1.8] text-[rgba(255,255,255,0.58)] max-w-[360px]">
                 {item.description}
               </p>
             </div>
@@ -73,14 +73,14 @@ export function Highlights() {
           
           {/* Left Card */}
           <div className="flex items-start gap-[24px] bg-[rgba(255,255,255,0.015)] border border-[rgba(255,255,255,0.05)] h-[120px] px-[24px] py-[18px]">
-            <div className="text-[54px] font-light text-[#E8C84A] leading-none shrink-0" style={{ fontFamily: "Canela, serif" }}>
+            <div className="text-[38px] font-light text-[#E8C84A] leading-none shrink-0" style={{ fontFamily: "Canela, serif" }}>
               ₹50K
             </div>
             <div className="flex flex-col text-left">
-              <h4 className="font-sans text-[16px] font-medium text-white mb-1 leading-[1.4]">
+              <h4 className="font-sans text-[14px] font-medium text-white mb-1 leading-[1.4]">
                 IIT Madras i2i Challenge — Finalist & prize winner
               </h4>
-              <p className="font-sans text-[13px] leading-[1.8] text-[rgba(255,255,255,0.55)]">
+              <p className="font-sans text-[12px] leading-[1.8] text-[rgba(255,255,255,0.55)]">
                 Awarded ₹50,000 for prototype development and demonstrating business impact potential at India's premier tech institute competition.
               </p>
             </div>
@@ -88,14 +88,14 @@ export function Highlights() {
 
           {/* Right Card */}
           <div className="flex items-start gap-[24px] bg-[rgba(255,255,255,0.015)] border border-[rgba(255,255,255,0.05)] h-[120px] px-[24px] py-[18px]">
-            <div className="text-[54px] font-light text-[#E8C84A] leading-none shrink-0" style={{ fontFamily: "Canela, serif" }}>
+            <div className="text-[38px] font-light text-[#E8C84A] leading-none shrink-0" style={{ fontFamily: "Canela, serif" }}>
               25
             </div>
             <div className="flex flex-col text-left">
-              <h4 className="font-sans text-[16px] font-medium text-white mb-1 leading-[1.4]">
+              <h4 className="font-sans text-[14px] font-medium text-white mb-1 leading-[1.4]">
                 Members led — ACM Student Chapter Vice-Chair
               </h4>
-              <p className="font-sans text-[13px] leading-[1.8] text-[rgba(255,255,255,0.55)]">
+              <p className="font-sans text-[12px] leading-[1.8] text-[rgba(255,255,255,0.55)]">
                 Directed a 25-member executive team. Organized hackathons, workshops, and delivered training in Python, Gen AI & ML.
               </p>
             </div>
