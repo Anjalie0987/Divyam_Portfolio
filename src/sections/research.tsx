@@ -33,6 +33,12 @@ export function Research() {
             <p className="max-w-[580px] text-[14px] leading-[1.9] text-[rgba(255,255,255,0.65)] mt-[40px]">
               Two full papers on AI at the intersection of healthcare and nanotechnology — indexed on ScienceDirect and presented at ICSET 2023 in Malacca, Malaysia.
             </p>
+            
+            <div className="mt-[36px]">
+              <a href="https://scholar.google.com/citations?hl=en&user=ctOKe6EAAAAJ" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center h-[42px] px-8 bg-transparent border border-[#d4af37] text-[#d4af37] font-mono font-bold text-[10px] tracking-[2px] transition-all duration-300 hover:bg-[#d4af37] hover:text-[#050505] uppercase">
+                Google Scholar Profile
+              </a>
+            </div>
           </div>
 
           {/* Right Column (Stats) */}

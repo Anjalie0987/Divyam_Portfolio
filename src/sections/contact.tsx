@@ -327,21 +327,7 @@ export function Contact() {
         </motion.div>
       </Container>
 
-      {/* Footer */}
-      <footer className="w-full border-t border-[rgba(255,255,255,0.08)] mt-auto">
-        <Container>
-          <div className="flex flex-col md:flex-row justify-between items-center h-[90px] w-full">
-            <span className="font-mono text-[14px] text-[rgba(255,255,255,0.45)] mb-[16px] md:mb-0">
-              © 2025 Divyam Mishra · Built with intention
-            </span>
-            <div className="flex items-center gap-[24px]">
-              <a href="#" className="font-mono text-[14px] text-[rgba(255,255,255,0.45)] transition-colors hover:text-[#d4af37]">LinkedIn</a>
-              <a href="#" className="font-mono text-[14px] text-[rgba(255,255,255,0.45)] transition-colors hover:text-[#d4af37]">GitHub</a>
-              <a href="#" className="font-mono text-[14px] text-[rgba(255,255,255,0.45)] transition-colors hover:text-[#d4af37]">divyammishra.vercel.app</a>
-            </div>
-          </div>
-        </Container>
-      </footer>
+
 
     </section>
   );
