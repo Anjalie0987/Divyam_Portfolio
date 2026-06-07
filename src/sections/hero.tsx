@@ -15,7 +15,7 @@ export function Hero() {
     >
       <Container>
         <div className="relative grid grid-cols-1 gap-8 lg:grid-cols-12 lg:gap-12">
-          
+
           {/* Vertical Divider (Desktop Only) */}
           <div className="absolute bottom-4 left-[70%] top-4 hidden w-[1px] -translate-x-6 bg-white/5 lg:block xl:-translate-x-8" />
 
@@ -49,7 +49,7 @@ export function Hero() {
               variants={fadeUp}
               className="mb-10 max-w-[540px] text-[15px] font-light leading-[1.8] text-white/50"
             >
-              ERP implementations. Process mapping. Data migration. I turn operational chaos into clean, working systems — currently doing exactly that at Target Integration, Gurugram. McKinsey Forward '26 alumnus.
+              ERP implementations. Process mapping. Data migration. I turn operational chaos into clean, working systems — currently doing exactly that at Target Integration, Gurugram.
             </motion.p>
 
             {/* Action Buttons */}

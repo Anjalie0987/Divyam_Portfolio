@@ -183,10 +183,7 @@ export function Work() {
                 2026 · 10-week program · Professional development
               </span>
             </div>
-            
-            <div className="h-[38px] px-[18px] rounded-full bg-[#d4af37] text-[#000] text-[9px] font-[600] tracking-[2px] flex items-center justify-center">
-              MCKINSEY CERTIFIED
-            </div>
+
           </div>
 
           {/* Divider */}

@@ -57,7 +57,7 @@ export function About() {
               {
                 num: "04",
                 title: "Structure everything",
-                desc: "McKinsey Forward sharpened what I already practised — every problem has a structure. Find it, frame it, fix it."
+                desc: "Every challenge becomes manageable when broken into clear components. A structured approach turns complexity into actionable outcome."
               }
             ].map((principle, idx) => (
               <div key={idx} className="flex gap-8 py-[28px] border-b border-[rgba(255,255,255,0.06)]">
