@@ -6,7 +6,7 @@ export function Work() {
       
       {/* Hero Section */}
       <Container>
-        <div className="relative flex flex-col lg:flex-row justify-between">
+        <div className="relative flex flex-col lg:flex-row justify-between lg:items-center">
           
           {/* Left Column (Main Headline & Description) */}
           <div className="flex flex-col w-full lg:w-[65%] lg:pr-12">
@@ -36,13 +36,32 @@ export function Work() {
             </div>
             {/* Stat 2 */}
             <div className="flex flex-col py-[24px] border-b border-[rgba(255,255,255,0.08)]">
-              <span className="text-[42px] font-normal text-[#D4AF37] leading-[1]" style={{ fontFamily: "'Cormorant Garamond', serif" }}>3</span>
+              <span className="text-[42px] font-normal text-[#D4AF37] leading-[1]" style={{ fontFamily: "'Cormorant Garamond', serif" }}>5</span>
               <span className="text-[11px] uppercase tracking-[0.12em] text-[rgba(255,255,255,0.55)] mt-2">ERP modules</span>
             </div>
             {/* Stat 3 */}
-            <div className="flex flex-col py-[24px]">
+            <div className="flex flex-col py-[24px] border-b border-[rgba(255,255,255,0.08)]">
               <span className="text-[42px] font-normal text-[#D4AF37] leading-[1]" style={{ fontFamily: "'Cormorant Garamond', serif" }}>100%</span>
               <span className="text-[11px] uppercase tracking-[0.12em] text-[rgba(255,255,255,0.55)] mt-2">Go-live success</span>
+            </div>
+            {/* Stat 4 */}
+            <div className="flex flex-col py-[24px]">
+              <span className="text-[42px] font-normal text-[#D4AF37] leading-[1]" style={{ fontFamily: "'Cormorant Garamond', serif" }}>7</span>
+              <span className="text-[11px] uppercase tracking-[0.12em] text-[rgba(255,255,255,0.55)] mt-2">Total projects</span>
+              <div className="flex flex-col gap-[6px] mt-[12px]">
+                <span className="text-[10px] text-[rgba(255,255,255,0.4)] tracking-[0.08em] uppercase flex items-center gap-2">
+                  <div className="w-1 h-1 rounded-full bg-[#D4AF37] opacity-50" /> 2 Support Projects
+                </span>
+                <span className="text-[10px] text-[rgba(255,255,255,0.4)] tracking-[0.08em] uppercase flex items-center gap-2">
+                  <div className="w-1 h-1 rounded-full bg-[#D4AF37] opacity-50" /> 2 Successful Go Live
+                </span>
+                <span className="text-[10px] text-[rgba(255,255,255,0.4)] tracking-[0.08em] uppercase flex items-center gap-2">
+                  <div className="w-1 h-1 rounded-full bg-[#D4AF37] opacity-50" /> 2 New Projects
+                </span>
+                <span className="text-[10px] text-[rgba(255,255,255,0.4)] tracking-[0.08em] uppercase flex items-center gap-2">
+                  <div className="w-1 h-1 rounded-full bg-[#D4AF37] opacity-50" /> 1 Upgrade Project
+                </span>
+              </div>
             </div>
           </div>
 

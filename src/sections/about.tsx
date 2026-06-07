@@ -92,7 +92,7 @@ export function About() {
             <div className="flex flex-col border-t border-[rgba(255,255,255,0.06)] pt-2">
               {[
                 {
-                  title: "B.Tech CSE (AI & ML) · CGPA 78.50",
+                  title: "B.Tech CSE (AI & ML) ·  78.50%",
                   meta: "Dronacharya College of Engineering, Gurugram · 2022–2026"
                 },
                 {
