@@ -1,6 +1,5 @@
 "use client";
 
-import { CustomCursor } from "./custom-cursor";
 import { ScrollProgress } from "./scroll-progress";
 import { Navbar } from "./navbar";
 import { Container } from "@/components/ui/container";
@@ -8,7 +7,6 @@ import { Container } from "@/components/ui/container";
 export function PageShell({ children }: { children: React.ReactNode }) {
   return (
     <>
-      <CustomCursor />
       <ScrollProgress />
       <Navbar />
       
