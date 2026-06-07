@@ -57,12 +57,14 @@ export function Hero() {
               variants={fadeUp}
               className="mb-12 flex flex-col gap-4 sm:flex-row sm:items-center"
             >
-              <Button
-                variant="luxury"
-                className="h-[42px] px-8 font-mono text-[11px] font-medium uppercase tracking-[0.15em]"
-              >
-                SEE MY WORK
-              </Button>
+              <a href="/work">
+                <Button
+                  variant="luxury"
+                  className="h-[42px] px-8 font-mono text-[11px] font-medium uppercase tracking-[0.15em]"
+                >
+                  SEE MY WORK
+                </Button>
+              </a>
               <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
                 <Button
                   variant="outline"
@@ -83,11 +85,11 @@ export function Hero() {
             >
               <Metric value="10K+" label="Records migrated" />
               <div className="hidden h-10 w-[1px] bg-white/10 md:block" />
-              <Metric value="3" label="ERP modules" />
+              <Metric value="5" label="ERP modules" />
               <div className="hidden h-10 w-[1px] bg-white/10 md:block" />
               <Metric value="2" label="Publications" />
               <div className="hidden h-10 w-[1px] bg-white/10 md:block" />
-              <Metric value="₹50K" label="IIT prize" />
+              <Metric value="₹50K+" label="Project funding" />
             </motion.div>
           </motion.div>
 

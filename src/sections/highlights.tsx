@@ -44,7 +44,8 @@ export function Highlights() {
               key={i}
               className={cn(
                 "group flex flex-col pt-[28px] pb-[24px] pr-[32px] border-t border-[rgba(255,255,255,0.08)] transition-all duration-200 hover:border-t-[#E8C84A]",
-                i !== 2 && "border-r"
+                i !== 2 && "lg:border-r",
+                i !== 0 && "lg:pl-[32px]"
               )}
             >
               <div className="flex items-center gap-3 mb-6">

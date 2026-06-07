@@ -4,10 +4,10 @@ export function About() {
   return (
     <section id="about" className="relative flex w-full flex-col justify-start bg-[#050505] pt-[80px] pb-[80px]">
       <Container>
-        
+
         {/* Top Area */}
         <div className="relative grid grid-cols-1 gap-8 lg:grid-cols-12 lg:gap-12">
-          
+
           {/* Left Column */}
           <div className="flex flex-col justify-end lg:col-span-8 lg:pr-12 xl:pr-16 pb-4">
             <div className="flex items-center gap-4 mb-8">
@@ -16,7 +16,7 @@ export function About() {
                 ABOUT ME
               </span>
             </div>
-            
+
             <h2 className="mb-10 flex flex-col tracking-[-0.03em]">
               <span className="text-white text-[56px] font-light leading-[0.95]" style={{ fontFamily: "Canela, serif" }}>
                 I stay until
@@ -25,7 +25,7 @@ export function About() {
                 it's fixed.
               </span>
             </h2>
-            
+
             <div className="flex flex-col gap-6">
               <p className="text-[14px] leading-[2] text-[rgba(255,255,255,0.58)] max-w-[700px]">
                 Final-year CSE (AI & ML) student at DCE Gurugram. Odoo Consultant at Target Integration. McKinsey Forward ’26 alumnus. Published researcher. IIT Madras i2i finalist. Presented research internationally at ICSET 2023, Malacca, Malaysia.
@@ -35,7 +35,7 @@ export function About() {
               </p>
             </div>
           </div>
-          
+
           {/* Right Column */}
           <div className="flex flex-col border-t lg:border-t-0 border-[rgba(255,255,255,0.06)] lg:col-span-4">
             {[
@@ -75,7 +75,7 @@ export function About() {
               </div>
             ))}
           </div>
-          
+
         </div>
 
         {/* Divider */}
@@ -83,7 +83,7 @@ export function About() {
 
         {/* Bottom Area */}
         <div className="relative grid grid-cols-1 gap-8 lg:grid-cols-12 lg:gap-12">
-          
+
           {/* Education Column */}
           <div className="flex flex-col lg:col-span-7 lg:pr-12 xl:pr-16">
             <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-[#E5C74A] mb-8">
@@ -92,7 +92,7 @@ export function About() {
             <div className="flex flex-col border-t border-[rgba(255,255,255,0.06)] pt-2">
               {[
                 {
-                  title: "B.Tech CSE (AI & ML) · CGPA 7.9",
+                  title: "B.Tech CSE (AI & ML) · CGPA 78.50",
                   meta: "Dronacharya College of Engineering, Gurugram · 2022–2026"
                 },
                 {
@@ -124,7 +124,7 @@ export function About() {
             <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-[#D4AF37] mb-8">
               KEY ACHIEVEMENTS
             </div>
-            
+
             <div className="grid grid-cols-2 gap-[12px]">
               {[
                 {
@@ -169,7 +169,7 @@ export function About() {
                 </div>
               ))}
             </div>
-            
+
           </div>
 
         </div>
